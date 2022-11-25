@@ -4,3 +4,6 @@
 - alacirtty
 - zshrc
 
+```
+sh ./setup.sh
+```
