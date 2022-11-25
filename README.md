@@ -3,7 +3,7 @@
 - vim
 - alacirtty
 - zshrc
-
+## Setup
 ```
 sh ./setup.sh
 ```
