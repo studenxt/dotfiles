@@ -1,4 +1,8 @@
 export PS1="%{$fg[1]%}%n %1~ %* $"
+# vimlike
+bindkey -e
+# auto complit
+autoload -U compinit
 
 alias v="vim"
 alias ls='ls -G'

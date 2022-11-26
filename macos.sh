@@ -44,7 +44,8 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 defaults write com.apple.finder "FXRemoveOldTrashItems" -bool "true"
 # Desktop hide harddisk
 defaults write com.apple.finder "ShowHardDrivesOnDesktop" -bool "false" 
-
+#　デフォルトの位置を変更
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Documents"
 # ネットワークストレージに .DS_Store ファイルを作成しない
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
