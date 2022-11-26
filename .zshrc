@@ -14,3 +14,7 @@ alias ..="cd ../"
 alias ...="cd ../.."
 alias py='python3'
 alias g="git"
+
+
+# local zshrc file
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
