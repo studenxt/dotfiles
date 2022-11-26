@@ -73,6 +73,12 @@ defaults write com.apple.screencapture "include-date" -bool "false"
 # 保存場所変更
 defaults write com.apple.screencapture "location" -string "~/Dowloads" 
 
+#----Vscode--------#
+#vim-clipboard
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+
+
 for app in "Activity Monitor" \
 	"Address Book" \
 	"Calendar" \
