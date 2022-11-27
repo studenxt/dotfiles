@@ -1,0 +1,10 @@
+
+# カスタムフォーマットを利用します
+format = """
+[┌───────────────────>](bold blue)
+[│](bold blue)$directory$rust$package
+[└─>](bold blue) """
+
+# プロンプトの先頭の空行を無効にします
+add_newline = false
+
