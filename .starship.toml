@@ -1,10 +1,66 @@
+#document
+#Thank you!!!
+#https://starship.rs/ja-JP/config/
 
+# ~/.config/starship.toml
 # カスタムフォーマットを利用します
 format = """
 [┌───────────────────>](bold blue)
-[│](bold blue)$directory$rust$package
-[└─>](bold blue) """
+[│](bold blue)$username\
+$directory\
+$time\
+$memory_usage\
+$battery\
+$cmd_duration\
+$git_status
+[└─>](bold blue)$character """
 
-# プロンプトの先頭の空行を無効にします
-add_newline = false
+[username]
+style_user = "#61afef"
+style_root = "black bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[directory]
+truncation_length = 10
+
+[time]
+disabled = false
+format = '🕙[\[ $time \]]($style) '
+style = "bold yellow "
+
+[memory_usage]
+disabled = false
+format = '$symbol[\[ $ram \]]($style) '
+threshold = -1
+symbol = "💾"
+style = "bold  green"
+
+[[battery.display]]
+threshold = 100 
+style = "bold red"
+
+[battery]
+format='$symbol[\[ $percentage \]]($style) '
+full_symbol = "🔋"
+charging_symbol = "🔋"
+discharging_symbol = "🔋"
+
+[cmd_duration]
+min_time = 500
+format = '⏳[\[ $duration \]](bold yellow) '
+
+[git_status]
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+up_to_date = "✓"
+untracked = "🤷"
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑"
 

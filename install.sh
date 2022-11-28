@@ -14,6 +14,7 @@ brew upgrade
 
 formulas=(
     r
+    starship
 )
 
 echo "brew tap"
@@ -35,6 +36,7 @@ casks=(
     visual-studio-code
     shiftit
     zoom
+    font-ricty-diminished
 )
 
 echo "brew casks"

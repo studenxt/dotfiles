@@ -8,7 +8,9 @@ autoload -U compinit
 
 alias v="vim"
 alias ls='ls -G'
-alias la="ls -la"
+alias la="ls -a"
+alias ll="ls -l"
+alias lla="ls -la"
 alias vz="vim ~/.zshrc"
 alias sz="source ~/.zshrc"
 alias ..="cd ../"
