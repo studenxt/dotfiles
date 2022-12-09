@@ -1,9 +1,10 @@
 "入力中移動
-inoremap <c-h> <left>
-inoremap <c-j> <Down>
-inoremap <c-k> <Up>
-inoremap <c-l> <right>
-inoremap <c-a> <c-o>^
-inoremap <c-e> <c-o>$
+imap <c-h> <left>
+imap <c-j> <Down>
+imap <c-k> <Up>
+imap <c-l> <right>
+imap <c-a> <c-o>^
+imap <c-e> <c-o>$
+
 
 
