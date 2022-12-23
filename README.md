@@ -1,5 +1,6 @@
 # My dotfiles(Mac Setup)
 
+
 ## I use Macbook
 
 - OS:MacOS 12.6.1
@@ -12,6 +13,12 @@
 - alacirtty
 - zshrc
 - starship
+
+## 下記の内容をまとめたものを一行で実行。(実行は保証しません)
+```
+sh ./setup.sh
+```
+
 
 ## 初期設定
 - 購入したばかりなら画面に従って設定する。
@@ -48,7 +55,4 @@ xcode-select --install
 あとは適当に設定ファイルのシンボリックシンクを張る。
 内容はlinks.sh
  
-## 下記の内容をまとめたものを一行で実行。(実行は保証しません)
-```
-sh ./setup.sh
-```
+
