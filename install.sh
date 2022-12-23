@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "install Command Line Tools Install..."
 xcode-select --install
 
 echo "installing homebrew..."
